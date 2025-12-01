@@ -88,7 +88,7 @@ app.onError((err, c) => {
 });
 
 const server = {
-  port: 3000, # update accordingly
+  port: 3000,
   fetch: app.fetch,
 };
 
